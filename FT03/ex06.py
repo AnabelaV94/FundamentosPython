@@ -11,3 +11,5 @@ if Numero2 > Numero1 and Numero2 > Numero3:
     print (f"O número {Numero2} é o maior") 
 if Numero3 > Numero1 and Numero3 > Numero1:
     print (f"O número {Numero3} é o maior") 
+else:
+    print (f"Algum dos Números é igual") 

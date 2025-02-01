@@ -20,15 +20,15 @@ IMC = Peso / (Altura**2)
 
 if IMC<17:
    print (f" Muito abaixo do peso ideal")  
-if IMC >= 17 and IMC < 18.5:
+elif IMC >= 17 and IMC < 18.5:
        print (f" baixo do peso")  
-if IMC >= 18.5 and IMC <= 25:
+elif IMC >= 18.5 and IMC <= 25:
     print (f"Peso normal")  
-if IMC >= 25 and IMC<30:
+elif IMC >= 25 and IMC<30:
     print (f"Acima do peso")  
-if IMC >= 30 and IMC<35:
+elif IMC >= 30 and IMC<35:
       print (f"Obesidade I") 
-if IMC >= 35 and IMC<40:
+elif IMC >= 35 and IMC<40:
     print (f"Obesidade II (severa)") 
-if IMC >=40:
+else: # IMC >=40
     print (f"besidade III (mórbida)")

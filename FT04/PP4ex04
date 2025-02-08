@@ -1,0 +1,20 @@
+'''programa com a função while que devolva a tabuada do 8'''
+
+#numero = 8
+#amultiplicar = 1  # Começa em 1 para evitar multiplicar por 0
+#resultado = 0
+
+# Ciclo while para calcular a tabuada do 8
+#while amultiplicar <= 10:  # Vai até 10
+   # resultado = numero * amultiplicar
+   # print(f"8 * {amultiplicar} = {resultado}")
+    #amultiplicar += 1  # Incrementa o número a ser multiplicado
+
+
+i = 1
+while i <= 10:
+    print(f'Tabuada do {i}')
+    j = 1
+    print(f'{i} x {i} = {i*j}')
+    j +=1
+    i +=1 

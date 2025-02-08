@@ -1,0 +1,1 @@
+'''Escreve um programa que coloque no ecrã a tabuada do número 5'''

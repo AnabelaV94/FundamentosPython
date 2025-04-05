@@ -25,3 +25,24 @@ def tipo_triangulo(a, b, c):
     else:
         return "Escaleno"
 print("Triangulo Equilátero", cor=Cores.BLUE)
+
+from minhasfunçoes import soma_media_numerodeelementos
+
+num1 = int(input('Adiciona o primeiro numero'))
+num2 = int(input('Adiciona o segundo numero'))
+num3 = int(input('Adiciona o terceiro numero'))
+num4 = int(input('Adiciona o quarto numero'))
+resultado = soma_media_numerodeelementos(num1,num2,num3,num4)
+
+
+minhasfunçoes.py
+def soma_media_numerodeelementos (*num):
+    
+    soma = sum(num)
+    quantidade = len(num)
+    media = soma / quantidade
+    
+    
+    print(f"Soma: {soma}")
+    print(f"Número de elementos: {quantidade}")
+    print(f"Média: {media:.2f}")
